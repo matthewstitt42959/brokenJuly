@@ -12,6 +12,7 @@ import { MaxwellComponent } from './maxwell/maxwell.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { DialogComponent } from './popsicle/dialog/dialog.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -29,6 +30,7 @@ const appRoutes: Routes = [
     HeaderComponent,
     FooterComponent,
     NotFoundComponent,
+    DialogComponent,
     
   ],
  imports: [
